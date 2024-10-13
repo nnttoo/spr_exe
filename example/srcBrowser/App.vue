@@ -1,5 +1,4 @@
-<script setup lang="ts">
-  console.log("ini mantap mas bro");
+<script setup lang="ts"> 
 </script>
 
 <template>

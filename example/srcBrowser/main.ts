@@ -1,4 +1,3 @@
-console.log("haloo");
 import { simplePageReload } from "simplepagereloader";
 
 import { createApp } from 'vue';
@@ -9,7 +8,6 @@ import "./main.css"
 
 createApp(App).mount('#app') 
 
-if(process.env.NODE_ENV != "production"){
-    console.log("developd");
+if(process.env.NODE_ENV != "production"){ 
     simplePageReload(9090);
 }

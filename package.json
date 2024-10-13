@@ -1,6 +1,6 @@
 {
   "name": "simplepagereloader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^12.1.0",
+    "ws": "^8.18.0"
   }
 }

@@ -23,12 +23,12 @@
     }
   },
   "scripts": {
-    "spr_exe_start": "spr_exe -p 9090",
-    "spr_exe_reload": "spr_exe -r -p 9090",
+    "spr_start": "spr_exe -p 9090",
+    "spr_reload": "spr_exe -r -p 9090",
     "build": "node ./esbuild.mjs",
     "build_browser": "node ./esbuild_browser.mjs",
-    "start": "concurrently \"node ./output/app.js\" \"npm run spr_exe_reload\" ",
-    "watch_all": "concurrently \"npm run spr_exe_start\"  \"npm-watch start\"  \"npm-watch build\" \"npm-watch build_browser\" "
+    "start": "concurrently \"node ./output/app.js\" \"npm run spr_reload\" ",
+    "watch_all": "concurrently \"npm run spr_start\"  \"npm-watch start\"  \"npm-watch build\" \"npm-watch build_browser\" "
   },
   "author": "",
   "license": "ISC",
