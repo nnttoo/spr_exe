@@ -1,5 +1,5 @@
  
-# Simple Auto Reload Page
+# Simple Page Reloader
 
 A tool for simple page reloading browser.
 
