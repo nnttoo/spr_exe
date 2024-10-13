@@ -6,7 +6,7 @@ A tool for simple page reloading browser.
 ## Install
 
 ```sh
-    npm install 
+    npm i simplepagereloader -D
 ```
 
 Add this code to your browser, for example in `main.js`:
