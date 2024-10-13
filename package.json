@@ -1,10 +1,14 @@
 {
   "name": "simplepagereloader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nnttoo/spr_exe"
+  },
   "type": "module",
   "main": "index.js",
-  "exports" :  "./autoreload_client.mjs",
+  "exports": "./autoreload_client.mjs",
   "types": "./autoreload_client.d.ts",
   "bin": {
     "spr_exe": "./simplepagereload.mjs"
