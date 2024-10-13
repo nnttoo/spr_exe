@@ -3,6 +3,12 @@
 
 A tool for simple page reloading browser.
 
+## Install
+
+```sh
+    npm install 
+```
+
 Add this code to your browser, for example in `main.js`:
 
 ```js
@@ -36,4 +42,4 @@ For example, like this:
 
 # Example usage
 
-[example](./example/)
+[example](https://github.com/nnttoo/spr_exe/tree/master/example)
