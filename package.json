@@ -1,0 +1,20 @@
+{
+  "name": "simplepagereloader",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "exports" :  "./autoreload_client.mjs",
+  "types": "./autoreload_client.d.ts",
+  "bin": {
+    "spr_exe": "./simplepagereload.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
