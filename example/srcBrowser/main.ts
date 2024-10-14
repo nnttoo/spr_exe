@@ -1,4 +1,4 @@
-import { simplePageReload } from "simplepagereloader";
+import { simplePageReload } from "simplepagereloader/client";
 
 import { createApp } from 'vue';
 
