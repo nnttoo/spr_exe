@@ -12,10 +12,13 @@ A tool for simple page reloading browser.
 Add this code to your browser, for example in `main.js`:
 
 ```js
+import { simplePageReload } from "simplepagereloader/client";
+
 if (import.meta.env.MODE == "development") { 
     simplePageReload(5050); 
 }
-```
+``` 
+
 
 Run `spr_exe` as a socket server with the following command:
 
